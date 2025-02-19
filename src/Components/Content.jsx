@@ -1,12 +1,13 @@
 
 import React from "react";
-import Street from '../images/Street.jpg';
-import Landscape from '../images/Landscape.jpg';
-import Product from '../images/Product.jpg';
-import Other from '../images/Other.jpg';
+import Street from '../images/Street.webp';
+import Landscape from '../images/Landscape.webp';
+import Product from '../images/Product.webp';
+import Other from '../images/Other.webp';
 import { Link } from 'react-router-dom';
+import LazyLoad from "react-lazyload";
 
-
+const disableRightClick = (e) => e.preventDefault();
 
 const Content = () => {
     return (
@@ -25,9 +26,9 @@ const Content = () => {
                 <div className="row">
                 
                         
-                        <div className="card"><Link to={'/Street'}>
+                        <div className="card"><Link to={'/Street'}> <LazyLoad height={200} offset={100} placeholder={<Placeholder />}>
                                                         
-                                <img src={Street} alt={Street}></img>
+                                <img src={Street} alt={Street} onContextMenu={disableRightClick}></img></LazyLoad>
                             
                             <div class='text-on-image'>
                             
@@ -37,9 +38,10 @@ const Content = () => {
   
                             </Link></div>
                         
-                        <div className="card"><Link to={'/Landscape'}>
+                        <div className="card"><Link to={'/Landscape'}> <LazyLoad height={200} offset={100} placeholder={<Placeholder />}>
                                                         
-                                <img src={Landscape} alt={Landscape}></img>
+                                <img src={Landscape} alt={Landscape} onContextMenu={disableRightClick}></img></LazyLoad>
+
                             
                             <div class='text-on-image'>
                                 <h5> LANDSCAPE </h5>
@@ -48,9 +50,10 @@ const Content = () => {
   
                             </Link></div>
 
-                        <div className="card"><Link to={'/Product'}>
+                        <div className="card"><Link to={'/Product'}> <LazyLoad height={200} offset={100} placeholder={<Placeholder />}>
                                                         
-                                <img src={Product} alt={Product}></img>
+                                <img src={Product} alt={Product} onContextMenu={disableRightClick}></img></LazyLoad>
+
                             
                             <div class='text-on-image'>
                                 <h5> PRODUCT </h5>
@@ -59,9 +62,10 @@ const Content = () => {
   
                             </Link></div>
 
-                        <div className="card"><Link to={'/Other'}>
+                        <div className="card"><Link to={'/Other'}> <LazyLoad height={200} offset={100} placeholder={<Placeholder />}>
                                                         
-                                <img src={Other} alt={Other}></img>
+                                <img src={Other} alt={Other} onContextMenu={disableRightClick}></img></LazyLoad>
+
                             
                             <div class='text-on-image'>
                                 <h5> OTHERS </h5>
@@ -76,5 +80,7 @@ const Content = () => {
         </>
     );
 };
+
+const Placeholder = () => <div style={{ height: 200, background: "#f0f0f0" }} />;
 
 export default Content;

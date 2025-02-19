@@ -1,10 +1,10 @@
 import React from "react";
-import Adyapith from '../images/Landscape.jpg';
-import Road from '../images/Landscape/Road.jpg';
-import Valley from '../images/Landscape/Valley.jpg';
-import Silk from '../images/Landscape/Silk.jpg';
-//import Boat from '../images/Landscape/Boat.jpg';
-import Love from '../images/Landscape/Love.jpg';
+import Adyapith from '../images/Landscape.webp';
+import Road from '../images/Landscape/Road.webp';
+import Valley from '../images/Landscape/Valley.webp';
+import Silk from '../images/Landscape/Silk.webp';
+//import Boat from '../images/Landscape/Boat.webp';
+import Love from '../images/Landscape/Love.webp';
 
 const Landscape = () => {
     return (

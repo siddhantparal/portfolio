@@ -1,10 +1,10 @@
 import React from "react";
-import Adyapith from '../images/Other.jpg';
-import Bird from '../images/Others/Bird.jpg';
-import Leaves from '../images/Others/Leaves.jpg';
-import Kite from '../images/Others/Kite.jpg';
-import Cats from '../images/Others/Cats.jpg';
-import Tree from '../images/Others/Tree.jpg';
+import Adyapith from '../images/Other.webp';
+import Bird from '../images/Others/Bird.webp';
+import Leaves from '../images/Others/Leaves.webp';
+import Kite from '../images/Others/Kite.webp';
+import Cats from '../images/Others/Cats.webp';
+import Tree from '../images/Others/Tree.webp';
 
 
 const Others = () => {

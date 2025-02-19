@@ -1,15 +1,15 @@
 import React from "react";
-import Adyapith from '../images/Street.jpg';
-import Cycle from '../images/Street/Cycle.jpg';
-import Goli from '../images/Street/Goli.jpg';
-import Market from '../images/Street/Market.jpg';
-import Victoria from '../images/Street/Victoria.jpg';
-import Raincoat from '../images/Street/Raincoat.jpg';
-import Bridge from '../images/Street/Bridge.JPG';
-import Bus from '../images/Street/Bus.jpg';
-import Fire from '../images/Street/Fire.jpg';
-import Std from '../images/Street/Std.jpg';
-import Maidan from '../images/Street/Maidan.jpg';
+import Adyapith from '../images/Street.webp';
+import Cycle from '../images/Street/Cycle.webp';
+import Goli from '../images/Street/Goli.webp';
+import Market from '../images/Street/Market.webp';
+import Victoria from '../images/Street/Victoria.webp';
+import Raincoat from '../images/Street/Raincoat.webp';
+import Bridge from '../images/Street/Bridge.webp';
+import Bus from '../images/Street/Bus.webp';
+import Fire from '../images/Street/Fire.webp';
+import Std from '../images/Street/Std.webp';
+import Maidan from '../images/Street/Maidan.webp';
 
 const Street = () => {
     return (

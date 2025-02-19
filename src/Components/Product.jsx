@@ -1,8 +1,8 @@
 import React from "react";
-import Adyapith from '../images/Product.jpg';
-import Manchester from '../images/Product/Manchester.jpg';
-import Walker from '../images/Product/Walker.jpg';
-import Sonata from '../images/Product/Sonata.jpg';
+import Adyapith from '../images/Product.webp';
+import Manchester from '../images/Product/Manchester.webp';
+import Walker from '../images/Product/Walker.webp';
+import Sonata from '../images/Product/Sonata.webp';
 
 
 const Product = () => {

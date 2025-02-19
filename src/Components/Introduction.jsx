@@ -1,6 +1,6 @@
 
 import React from "react";
-import Self from '../images/Self.jpg';
+import Self from '../images/Self.webp';
 import Content from "./Content"
 
 
@@ -8,6 +8,7 @@ import whatsapp from '../images/whatsapp.png';
 import instagram from '../images/instagram.png';
 import mail from '../images/mail.png';
 
+const disableRightClick = (e) => e.preventDefault();
 const Introduction = () => {
     return (
         <>
@@ -49,7 +50,7 @@ const Introduction = () => {
                     
 
                         <div className="image">
-                            <img src={Self} alt={Self}  ></img>
+                            <img src={Self} alt={Self} onContextMenu={disableRightClick}></img>
                         </div>
 
                     
